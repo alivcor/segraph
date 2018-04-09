@@ -1,0 +1,16 @@
+#documentation
+recursive-include docs/_build/html *
+
+#image data used for segmentation
+recursive-include segraph/data *
+
+#phonetic representation
+include segraph/Makefile
+
+#example files
+include segraph/example/EXAMPLE.*
+
+#Misc
+include CHANGES.txt
+include LICENSE.txt
+include README.md
